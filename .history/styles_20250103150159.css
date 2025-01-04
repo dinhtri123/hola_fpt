@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Myriad Pro";
+  src: url("./fonts/MYRIADPRO-REGULAR.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SFUAGBuchStencilBQMedium";
+  src: url("./fonts/SFUAGBuchStencilBQMedium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --font-primary: "SFUAGBuchStencilBQMedium", sans-serif;
+  --font-secondary: "Myriad Pro", sans-serif;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: var(--font-primary);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1630px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0px auto;
+}
+.intro {
+  position: relative;
+}
+.intro-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.intro-inner {
+  padding-top: 50px;
+}
