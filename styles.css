@@ -463,6 +463,9 @@ img {
 .detail-list {
   padding-bottom: 100px;
 }
+.intro-img3 {
+  margin: 0px auto;
+}
 @media screen and (max-width: 1280px) {
   .news-list {
     grid-template-columns: repeat(2, 1fr);
@@ -713,6 +716,5 @@ img {
   }
   .intro-img3 {
     max-width: 70%;
-    margin: 0px auto;
   }
 }
