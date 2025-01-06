@@ -68,6 +68,7 @@ img {
 }
 .intro-title {
   margin-top: 30px;
+  justify-content: center;
 }
 .intro-title-small {
   margin-top: 5px;
@@ -514,7 +515,7 @@ img {
   }
   .intro-logo {
     max-width: 120px;
-    margin: 0px auto;
+    margin: 0px auto 20px;
     display: flex;
   }
   .intro-inner .intro-bg {
